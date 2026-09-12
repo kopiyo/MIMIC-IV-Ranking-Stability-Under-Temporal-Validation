@@ -1,0 +1,23 @@
+{
+  "research_question": "Does ML algorithm ranking survive temporal validation?",
+  "kendall_tau": 0.7777777777777777,
+  "kendall_p": 0.0009463183421516755,
+  "tau_ci_95": [
+    0.15555555555555553,
+    0.7777777777777777
+  ],
+  "hypothesis_supported": true,
+  "models_moved_2plus": 1,
+  "n_ml_models": 10,
+  "best_design_A": "XGBoost",
+  "best_design_B": "LightGBM",
+  "mean_degradation_auprc": -0.025420000000000005,
+  "mean_degradation_pct": -4.51,
+  "tau_auroc_sensitivity": 0.7777777777777777,
+  "n_trials": 30,
+  "n_seeds": 5,
+  "cohort_size": 32315,
+  "n_features": 260,
+  "train_prevalence": 0.10565007351396766,
+  "test_prevalence": 0.13563025210084034
+}

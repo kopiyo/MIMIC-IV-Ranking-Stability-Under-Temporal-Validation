@@ -1,0 +1,128 @@
+{
+  "LogisticRegression__A": {
+    "C": 3.735710855395114,
+    "l1_ratio": 0.39245289210263246
+  },
+  "RandomForest__A": {
+    "n_estimators": 300,
+    "max_depth": 18,
+    "min_samples_leaf": 13,
+    "max_features": 0.5161144914241357
+  },
+  "XGBoost__A": {
+    "n_estimators": 650,
+    "max_depth": 5,
+    "learning_rate": 0.030147309977275962,
+    "subsample": 0.6200616568738538,
+    "colsample_bytree": 0.5692584534238038,
+    "min_child_weight": 12,
+    "reg_lambda": 0.12574027507531033,
+    "reg_alpha": 0.8791229974895961
+  },
+  "LightGBM__A": {
+    "n_estimators": 350,
+    "num_leaves": 104,
+    "learning_rate": 0.1838693722476902,
+    "min_child_samples": 86,
+    "subsample": 0.5962032728335486,
+    "colsample_bytree": 0.5827507693737799,
+    "reg_lambda": 0.008101324842116018
+  },
+  "CatBoost__A": {
+    "iterations": 400,
+    "depth": 7,
+    "learning_rate": 0.04345454109729477,
+    "l2_leaf_reg": 2.6926552514864723
+  },
+  "MLP__A": {
+    "hidden": "256",
+    "alpha": 0.00234238498471129,
+    "lr": 0.0001238513729886094
+  },
+  "FT-Transformer__A": {
+    "d": 128,
+    "blocks": 1,
+    "dropout": 0.08479381590771698,
+    "lr": 0.0008327791422645753
+  },
+  "LSTM__A": {
+    "hidden": 128,
+    "layers": 1,
+    "dropout": 0.2409481648316648,
+    "lr": 0.000349052952968205
+  },
+  "GRU-D__A": {
+    "hidden": 64,
+    "dropout": 0.4245308520695602,
+    "lr": 0.0018163395534057164
+  },
+  "TFT__A": {
+    "hidden": 64,
+    "heads": 2,
+    "dropout": 0.26000014861401355,
+    "lr": 0.00014615193431206922
+  },
+  "LogisticRegression__B": {
+    "C": 0.01399608845269968,
+    "l1_ratio": 0.26169257424565046
+  },
+  "RandomForest__B": {
+    "n_estimators": 800,
+    "max_depth": 11,
+    "min_samples_leaf": 25,
+    "max_features": 0.10133591908221677
+  },
+  "XGBoost__B": {
+    "n_estimators": 550,
+    "max_depth": 9,
+    "learning_rate": 0.0464628897450453,
+    "subsample": 0.6743524785022761,
+    "colsample_bytree": 0.48691151988228054,
+    "min_child_weight": 19,
+    "reg_lambda": 0.050448766084172564,
+    "reg_alpha": 2.244626314720755
+  },
+  "LightGBM__B": {
+    "n_estimators": 700,
+    "num_leaves": 106,
+    "learning_rate": 0.014187928399778817,
+    "min_child_samples": 85,
+    "subsample": 0.8538560118635851,
+    "colsample_bytree": 0.7779436518676398,
+    "reg_lambda": 0.8748537035593347
+  },
+  "CatBoost__B": {
+    "iterations": 800,
+    "depth": 9,
+    "learning_rate": 0.0672617666353234,
+    "l2_leaf_reg": 5.55779939532449
+  },
+  "MLP__B": {
+    "hidden": "256,128",
+    "alpha": 0.012907627214036948,
+    "lr": 0.000574420482616551
+  },
+  "FT-Transformer__B": {
+    "d": 32,
+    "blocks": 1,
+    "dropout": 0.33191376791154087,
+    "lr": 0.003691502265700206
+  },
+  "LSTM__B": {
+    "hidden": 128,
+    "layers": 1,
+    "dropout": 0.3428250736338083,
+    "lr": 0.0016663774128401678
+  },
+  "GRU-D__B": {
+    "hidden": 128,
+    "dropout": 0.03111830405768917,
+    "lr": 0.00133808508122037
+  },
+  "TFT__B": {
+    "hidden": 64,
+    "heads": 2,
+    "dropout": 0.062397808134481064,
+    "lr": 0.00012551115172973836
+  }
+}
