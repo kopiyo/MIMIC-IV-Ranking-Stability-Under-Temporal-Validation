@@ -1,4 +1,4 @@
-# MIMIC-IV — Ranking Stability Under Temporal Validation
+# MIMIC-IV: Ranking Stability Under Temporal Validation
 
 Does the performance ranking of machine learning algorithms for ICU in-hospital
 mortality prediction stay the same when models are evaluated by forward-in-time
